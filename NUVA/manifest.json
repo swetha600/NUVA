@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Nuva - AI Reading Assistant",
+  "version": "1.0.0",
+  "description": "Summarize and simplify web content with AI",
+  "permissions": ["activeTab", "storage", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_title": "Open Nuva Panel"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
